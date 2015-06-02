@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CFA13C91B1D704100429429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA13C81B1D704100429429 /* AppDelegate.swift */; };
+		1CFA13CB1B1D704100429429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA13CA1B1D704100429429 /* ViewController.swift */; };
+		1CFA13CE1B1D704100429429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA13CC1B1D704100429429 /* Main.storyboard */; };
+		1CFA13D01B1D704100429429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA13CF1B1D704100429429 /* Images.xcassets */; };
+		1CFA13D31B1D704100429429 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA13D11B1D704100429429 /* LaunchScreen.xib */; };
+		1CFA13DF1B1D704100429429 /* ParticleWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA13DE1B1D704100429429 /* ParticleWatchTests.swift */; };
+		1CFA13F21B1D707B00429429 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA13F11B1D707B00429429 /* InterfaceController.swift */; };
+		1CFA13F41B1D707B00429429 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFA13F31B1D707B00429429 /* NotificationController.swift */; };
+		1CFA13F61B1D707B00429429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA13F51B1D707B00429429 /* Images.xcassets */; };
+		1CFA13FA1B1D707B00429429 /* ParticleWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA13F91B1D707B00429429 /* ParticleWatch WatchKit App.app */; };
+		1CFA14041B1D707B00429429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA14031B1D707B00429429 /* Images.xcassets */; };
+		1CFA14071B1D707B00429429 /* ParticleWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1CFA13EC1B1D707B00429429 /* ParticleWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1CFA14101B1D70AB00429429 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CFA140F1B1D70AB00429429 /* Interface.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CFA13D91B1D704100429429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CFA13BB1B1D704100429429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CFA13C21B1D704100429429;
+			remoteInfo = ParticleWatch;
+		};
+		1CFA13FB1B1D707B00429429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CFA13BB1B1D704100429429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CFA13F81B1D707B00429429;
+			remoteInfo = "ParticleWatch WatchKit App";
+		};
+		1CFA14051B1D707B00429429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CFA13BB1B1D704100429429 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CFA13EB1B1D707B00429429;
+			remoteInfo = "ParticleWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1CFA140E1B1D707B00429429 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1CFA14071B1D707B00429429 /* ParticleWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1CFA13C31B1D704100429429 /* ParticleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParticleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFA13C71B1D704100429429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFA13C81B1D704100429429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CFA13CA1B1D704100429429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1CFA13CD1B1D704100429429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CFA13CF1B1D704100429429 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CFA13D21B1D704100429429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1CFA13D81B1D704100429429 /* ParticleWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticleWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFA13DD1B1D704100429429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFA13DE1B1D704100429429 /* ParticleWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleWatchTests.swift; sourceTree = "<group>"; };
+		1CFA13EC1B1D707B00429429 /* ParticleWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ParticleWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFA13EF1B1D707B00429429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFA13F01B1D707B00429429 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1CFA13F11B1D707B00429429 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1CFA13F31B1D707B00429429 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1CFA13F51B1D707B00429429 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CFA13F91B1D707B00429429 /* ParticleWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ParticleWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CFA13FF1B1D707B00429429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CFA14031B1D707B00429429 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CFA140F1B1D70AB00429429 /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CFA13C01B1D704100429429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFA13D51B1D704100429429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFA13E91B1D707B00429429 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CFA13BA1B1D704100429429 = {
+			isa = PBXGroup;
+			children = (
+				1CFA13C51B1D704100429429 /* ParticleWatch */,
+				1CFA13DB1B1D704100429429 /* ParticleWatchTests */,
+				1CFA13ED1B1D707B00429429 /* ParticleWatch WatchKit Extension */,
+				1CFA13FD1B1D707B00429429 /* ParticleWatch WatchKit App */,
+				1CFA13C41B1D704100429429 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CFA13C41B1D704100429429 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA13C31B1D704100429429 /* ParticleWatch.app */,
+				1CFA13D81B1D704100429429 /* ParticleWatchTests.xctest */,
+				1CFA13EC1B1D707B00429429 /* ParticleWatch WatchKit Extension.appex */,
+				1CFA13F91B1D707B00429429 /* ParticleWatch WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CFA13C51B1D704100429429 /* ParticleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA13C81B1D704100429429 /* AppDelegate.swift */,
+				1CFA13CA1B1D704100429429 /* ViewController.swift */,
+				1CFA13CC1B1D704100429429 /* Main.storyboard */,
+				1CFA13CF1B1D704100429429 /* Images.xcassets */,
+				1CFA13D11B1D704100429429 /* LaunchScreen.xib */,
+				1CFA13C61B1D704100429429 /* Supporting Files */,
+			);
+			path = ParticleWatch;
+			sourceTree = "<group>";
+		};
+		1CFA13C61B1D704100429429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA13C71B1D704100429429 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CFA13DB1B1D704100429429 /* ParticleWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA13DE1B1D704100429429 /* ParticleWatchTests.swift */,
+				1CFA13DC1B1D704100429429 /* Supporting Files */,
+			);
+			path = ParticleWatchTests;
+			sourceTree = "<group>";
+		};
+		1CFA13DC1B1D704100429429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA13DD1B1D704100429429 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CFA13ED1B1D707B00429429 /* ParticleWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA13F11B1D707B00429429 /* InterfaceController.swift */,
+				1CFA13F31B1D707B00429429 /* NotificationController.swift */,
+				1CFA13F51B1D707B00429429 /* Images.xcassets */,
+				1CFA13EE1B1D707B00429429 /* Supporting Files */,
+			);
+			path = "ParticleWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1CFA13EE1B1D707B00429429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA13EF1B1D707B00429429 /* Info.plist */,
+				1CFA13F01B1D707B00429429 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CFA13FD1B1D707B00429429 /* ParticleWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA140F1B1D70AB00429429 /* Interface.storyboard */,
+				1CFA14031B1D707B00429429 /* Images.xcassets */,
+				1CFA13FE1B1D707B00429429 /* Supporting Files */,
+			);
+			path = "ParticleWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		1CFA13FE1B1D707B00429429 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CFA13FF1B1D707B00429429 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CFA13C21B1D704100429429 /* ParticleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFA13E21B1D704100429429 /* Build configuration list for PBXNativeTarget "ParticleWatch" */;
+			buildPhases = (
+				1CFA13BF1B1D704100429429 /* Sources */,
+				1CFA13C01B1D704100429429 /* Frameworks */,
+				1CFA13C11B1D704100429429 /* Resources */,
+				1CFA140E1B1D707B00429429 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFA14061B1D707B00429429 /* PBXTargetDependency */,
+			);
+			name = ParticleWatch;
+			productName = ParticleWatch;
+			productReference = 1CFA13C31B1D704100429429 /* ParticleWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CFA13D71B1D704100429429 /* ParticleWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFA13E51B1D704100429429 /* Build configuration list for PBXNativeTarget "ParticleWatchTests" */;
+			buildPhases = (
+				1CFA13D41B1D704100429429 /* Sources */,
+				1CFA13D51B1D704100429429 /* Frameworks */,
+				1CFA13D61B1D704100429429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFA13DA1B1D704100429429 /* PBXTargetDependency */,
+			);
+			name = ParticleWatchTests;
+			productName = ParticleWatchTests;
+			productReference = 1CFA13D81B1D704100429429 /* ParticleWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CFA13EB1B1D707B00429429 /* ParticleWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFA140D1B1D707B00429429 /* Build configuration list for PBXNativeTarget "ParticleWatch WatchKit Extension" */;
+			buildPhases = (
+				1CFA13E81B1D707B00429429 /* Sources */,
+				1CFA13E91B1D707B00429429 /* Frameworks */,
+				1CFA13EA1B1D707B00429429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFA13FC1B1D707B00429429 /* PBXTargetDependency */,
+			);
+			name = "ParticleWatch WatchKit Extension";
+			productName = "ParticleWatch WatchKit Extension";
+			productReference = 1CFA13EC1B1D707B00429429 /* ParticleWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1CFA13F81B1D707B00429429 /* ParticleWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CFA140C1B1D707B00429429 /* Build configuration list for PBXNativeTarget "ParticleWatch WatchKit App" */;
+			buildPhases = (
+				1CFA13F71B1D707B00429429 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ParticleWatch WatchKit App";
+			productName = "ParticleWatch WatchKit App";
+			productReference = 1CFA13F91B1D707B00429429 /* ParticleWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CFA13BB1B1D704100429429 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "鹿野壮";
+				TargetAttributes = {
+					1CFA13C21B1D704100429429 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1CFA13D71B1D704100429429 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 1CFA13C21B1D704100429429;
+					};
+					1CFA13EB1B1D707B00429429 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					1CFA13F81B1D707B00429429 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 1CFA13BE1B1D704100429429 /* Build configuration list for PBXProject "ParticleWatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CFA13BA1B1D704100429429;
+			productRefGroup = 1CFA13C41B1D704100429429 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CFA13C21B1D704100429429 /* ParticleWatch */,
+				1CFA13D71B1D704100429429 /* ParticleWatchTests */,
+				1CFA13EB1B1D707B00429429 /* ParticleWatch WatchKit Extension */,
+				1CFA13F81B1D707B00429429 /* ParticleWatch WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CFA13C11B1D704100429429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFA13CE1B1D704100429429 /* Main.storyboard in Resources */,
+				1CFA13D31B1D704100429429 /* LaunchScreen.xib in Resources */,
+				1CFA13D01B1D704100429429 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFA13D61B1D704100429429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFA13EA1B1D707B00429429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFA13FA1B1D707B00429429 /* ParticleWatch WatchKit App.app in Resources */,
+				1CFA13F61B1D707B00429429 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFA13F71B1D707B00429429 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFA14101B1D70AB00429429 /* Interface.storyboard in Resources */,
+				1CFA14041B1D707B00429429 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CFA13BF1B1D704100429429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFA13CB1B1D704100429429 /* ViewController.swift in Sources */,
+				1CFA13C91B1D704100429429 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFA13D41B1D704100429429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFA13DF1B1D704100429429 /* ParticleWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CFA13E81B1D707B00429429 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFA13F41B1D707B00429429 /* NotificationController.swift in Sources */,
+				1CFA13F21B1D707B00429429 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CFA13DA1B1D704100429429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CFA13C21B1D704100429429 /* ParticleWatch */;
+			targetProxy = 1CFA13D91B1D704100429429 /* PBXContainerItemProxy */;
+		};
+		1CFA13FC1B1D707B00429429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CFA13F81B1D707B00429429 /* ParticleWatch WatchKit App */;
+			targetProxy = 1CFA13FB1B1D707B00429429 /* PBXContainerItemProxy */;
+		};
+		1CFA14061B1D707B00429429 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CFA13EB1B1D707B00429429 /* ParticleWatch WatchKit Extension */;
+			targetProxy = 1CFA14051B1D707B00429429 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CFA13CC1B1D704100429429 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFA13CD1B1D704100429429 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CFA13D11B1D704100429429 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CFA13D21B1D704100429429 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CFA13E01B1D704100429429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CFA13E11B1D704100429429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CFA13E31B1D704100429429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1CFA13E41B1D704100429429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ParticleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1CFA13E61B1D704100429429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParticleWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleWatch.app/ParticleWatch";
+			};
+			name = Debug;
+		};
+		1CFA13E71B1D704100429429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParticleWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParticleWatch.app/ParticleWatch";
+			};
+			name = Release;
+		};
+		1CFA14081B1D707B00429429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ParticleWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1CFA14091B1D707B00429429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ParticleWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1CFA140A1B1D707B00429429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = ParticleWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "ParticleWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1CFA140B1B1D707B00429429 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = ParticleWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "ParticleWatch WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CFA13BE1B1D704100429429 /* Build configuration list for PBXProject "ParticleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFA13E01B1D704100429429 /* Debug */,
+				1CFA13E11B1D704100429429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFA13E21B1D704100429429 /* Build configuration list for PBXNativeTarget "ParticleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFA13E31B1D704100429429 /* Debug */,
+				1CFA13E41B1D704100429429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFA13E51B1D704100429429 /* Build configuration list for PBXNativeTarget "ParticleWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFA13E61B1D704100429429 /* Debug */,
+				1CFA13E71B1D704100429429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CFA140C1B1D707B00429429 /* Build configuration list for PBXNativeTarget "ParticleWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFA140A1B1D707B00429429 /* Debug */,
+				1CFA140B1B1D707B00429429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1CFA140D1B1D707B00429429 /* Build configuration list for PBXNativeTarget "ParticleWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CFA14081B1D707B00429429 /* Debug */,
+				1CFA14091B1D707B00429429 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CFA13BB1B1D704100429429 /* Project object */;
+}
